@@ -24,19 +24,18 @@ import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListe
 import com.google.android.gms.location.LocationServices;
 
 /*
-* MijnLocaties heeft als doel om locaties in te voeren en op te slaan in sqlite database.
-* Exportmogelijkheid naar xml voor gebruik in andere apps.
-* Uitproberen Uber API.
-*
-* Na opstarten wordt een lijst getoond met (eerder) ingevoerde locaties
-* Elke locatie in de lijst kan worden aangevinkt.
-* Als je 2 locaties hebt aangevinkt, kan je met de knop Uber de prijs bepalen voor de rit (het maakt niet uit welke locatie startpunt is en welke bestemming)
-* Als je 1 locatie hebt aangevinkt, kun je de producten bekijken op die locatie
-* Als je 0, 3 of meer hebt aangevinkt, dan werkt de uber-knop niet.
-* Eventueel is ook Google-maps info in te bouwen die met de locaties werkt.
-*
-*
-* */
+  My Locations aims to
+  - enter locations and to store in sqlite database.
+  - export XML for use in other apps.
+  - try out Uber API.
+
+  After starting up a list is shown with (earlier) entered locations
+  Each location in the list can be checked.
+  If you have checked two locations, you can use the button Uber determine the price for the ride (it does not matter which location starting point is and what destination)
+  If you checked one location, you can view the products at that location
+  If you checked 0, 3 or more, then the uber button will not work.
+
+*/
 
 public class MainActivity extends Activity implements
         ConnectionCallbacks, OnConnectionFailedListener {
@@ -48,7 +47,7 @@ public class MainActivity extends Activity implements
     public double mLatitude;
     public double mLongitude;
     public DbHelper mDbHelper;
-    public Locatie editLoc; // wordt gecreeerd in onCreate van deze MainActivity; wordt gevuld wanneer op een locatie in de lijst geklikt wordt.
+    public Locatie editLoc; // created in onCreate of MainActivity; filled when clicked on a location in the list
     public static int mCountChecked = 0;
 
     //----------------------------------------------------------------------------------------------

@@ -8,11 +8,11 @@ public class Locatie {
 
     private int locatieid;
     private String omschrijving;
-    private String naamkort;    // Korte benaming
-    private String adres;       // Bijv. Binnenwatersloot 30
-    private String postcode;    // Bijv 1288DT
-    private double lgraad;      // Lengtegraad; bij grenspost gebruikt
-    private double bgraad;      // Breedtegraad; Bij grenspost gebruikt
+    private String naamkort;
+    private String adres;
+    private String postcode;
+    private double lgraad;
+    private double bgraad;
 
 
     public Locatie() {

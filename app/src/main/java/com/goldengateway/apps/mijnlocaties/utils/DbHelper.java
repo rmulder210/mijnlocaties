@@ -37,7 +37,6 @@ public class DbHelper extends SQLiteOpenHelper {
         db.close();//TEST
     }
 
-    // voorwaarde: de tabel LOCATIES bestaat.
     public boolean isTableLocatieSEmpty() {
         boolean result = false;
         SQLiteDatabase db = this.getReadableDatabase();

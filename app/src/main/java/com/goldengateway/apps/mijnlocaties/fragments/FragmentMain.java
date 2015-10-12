@@ -72,7 +72,7 @@ public class FragmentMain extends Fragment {
                     lin2     = (LinearLayout) lin1.getChildAt(1);
                     cb       = (CheckBox) lin2.getChildAt(0);
                     tr       = (TableRow) tl.getChildAt(0);
-                    textView = (TextView) tr.getChildAt(1); // positie 1 bevat het id
+                    textView = (TextView) tr.getChildAt(1); // position 1 contains id
 
                     if (cb.isChecked()) {
                         countChecked++;
@@ -122,7 +122,7 @@ public class FragmentMain extends Fragment {
 
     private void initData( View v) {
         locaties = new ArrayList<Locatie>();
-        fetchData(); // vul de lijst vanuit de database
+        fetchData(); // get locations from database
 
         locatieList = (ListView) v.findViewById(R.id.listViewLocaties);
         adapter   = new LocatieItemAdapter(getActivity(), R.layout.locatie_item, locaties);
