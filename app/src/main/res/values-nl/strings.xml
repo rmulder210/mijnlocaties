@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MijnLocaties</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="addlocation">Voeg locatie toe</string>
+    <string name="addcurrentlocation">Voeg huidige locatie toe</string>
+    <string name="maintainlocations">Locaties beheren</string>
+    <string name="loccurrent">Huidige locatie</string>
+    <string name="locdescription">Omschrijving</string>
+    <string name="loclongitude">Lengtegraad</string>
+    <string name="loclatitude">Breedtegraad</string>
+
+    <string name="hintCurLocDescription">Voer omschrijving in</string>
+
+    <string name="no_location_detected">Geen locatie vastgesteld</string>
+    <string name="location_unknown">Locatie onbekend</string>
+    <string name="location_added">Location toegevoegd</string>
+
+    <string name="location_id">Locatie id</string>
+
+    <string name="product_id">Product id</string>
+    <string name="product_description">Omschrijving</string>
+    <string name="product_displayname">Naam</string>
+    <string name="product_capacity">Capaciteit</string>
+
+    <string name="request_succes_no_products">Geen producten gevonden op deze locatie</string>
+    <string name="request_failure">Server request mislukt</string>
+
+    <string name="check_one_or_two">U moet 1 of 2 locaties aanvinken</string>
+
+</resources>

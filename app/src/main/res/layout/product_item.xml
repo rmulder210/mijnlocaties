@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="2dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="2dp"
+    android:textStyle="bold">
+
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/trProduct_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lbProduct_id"
+                android:layout_width="@dimen/width_column_labels"
+                android:layout_height="wrap_content"
+                android:text="@string/product_id" />
+
+            <TextView
+                android:id="@+id/tvProduct_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/trProduct_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lbProduct_description"
+                android:layout_width="@dimen/width_column_labels"
+                android:layout_height="wrap_content"
+                android:text="@string/product_description" />
+
+            <TextView
+                android:id="@+id/tvProduct_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/trProduct_displayName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lbProduct_displayName"
+                android:layout_width="@dimen/width_column_labels"
+                android:layout_height="wrap_content"
+                android:text="@string/product_displayname" />
+
+            <TextView
+                android:id="@+id/tvProduct_displayName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/trProduct_capacity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lbProduct_capacity"
+                android:layout_width="@dimen/width_column_labels"
+                android:layout_height="wrap_content"
+                android:text="@string/product_capacity" />
+
+            <TextView
+                android:id="@+id/tvProduct_capacity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/trProduct_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

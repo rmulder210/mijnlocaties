@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MijnLocaties</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="addlocation">Add location</string>
+    <string name="addcurrentlocation">Add current location</string>
+    <string name="maintainlocations">Maintain locations</string>
+    <string name="loccurrent">Current location</string>
+    <string name="locdescription">Description</string>
+    <string name="loclongitude">Longitude</string>
+    <string name="loclatitude">Latitude</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string name="hintCurLocDescription">Enter description</string>
+
+    <string name="no_location_detected">No location detected</string>
+    <string name="location_unknown">Location unknown</string>
+    <string name="location_added">Location added</string>
+
+    <string name="location_id">Location id</string>
+
+    <string name="product_id">Product id</string>
+    <string name="product_description">Description</string>
+    <string name="product_displayname">Name</string>
+    <string name="product_capacity">Capacity</string>
+
+    <string name="request_succes_no_products">No products found at this location</string>
+    <string name="request_failure">Server request failed</string>
+
+    <string name="check_one_or_two">You have two check 1 or 2 locations</string>
+
+
+</resources>

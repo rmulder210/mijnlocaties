@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:background="@color/backgroundmain"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loccurrent"
+        android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+
+    <TableLayout
+        android:id="@+id/tlCurLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/trCurLocDescription"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvCurLocDescription"
+                android:layout_width="@dimen/width_column_labels"
+                android:layout_height="wrap_content"
+                android:text="@string/locdescription" />
+            <EditText
+                android:id="@+id/etCurLocDescription"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintCurLocDescription"
+                android:layout_gravity="center_horizontal" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/trCurLocLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tvCurLocLongitude"
+                android:layout_width="@dimen/width_column_labels"
+                android:layout_height="wrap_content"
+                android:text="@string/loclongitude" />
+            <TextView
+                android:id="@+id/tvCurLocLongitudeValue"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/trCurLocLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tvCurLocLatitude"
+                android:layout_width="@dimen/width_column_labels"
+                android:layout_height="wrap_content"
+                android:text="@string/loclatitude" />
+            <TextView
+                android:id="@+id/tvCurLocLatitudeValue"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnAddCurLocToDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:text="@string/addcurrentlocation" />
+
+</LinearLayout>
